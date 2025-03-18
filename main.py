@@ -17,7 +17,7 @@ class SpyScreenApp(MDApp):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
-    def take_screenshot(self):
+    def take_screenshot(self, *args):
         """Llama al servicio Java para capturar la pantalla"""
         try:
             ScreenCaptureService = autoclass("org.kivy.android.ScreenCaptureService")
