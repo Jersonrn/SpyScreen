@@ -1,0 +1,3 @@
+git+https://github.com/Jersonrn/KivyMD.git@master
+buildozer
+Cython
